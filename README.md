@@ -184,8 +184,11 @@ The GET `/books/` endpoint supports:
 
 **Example Requests:**
 https://bdf-lab-3-er43.onrender.com/books/?search_q=the
+
 https://bdf-lab-3-er43.onrender.com/books/?order_by=price&order=DESC
+
 https://bdf-lab-3-er43.onrender.com/books/?limit=10&offset=0
+
 https://bdf-lab-3-er43.onrender.com/books/?min_price=100&max_price=500
 
 ## 9. Testing
