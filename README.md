@@ -12,8 +12,6 @@
 ---
 
 ## Live Application
-
-- **Deployment Platform:** Render
 - **Live Application URL:** https://bdf-lab-3-er43.onrender.com/
 - **GitHub Repository:** https://github.com/pendyalamanasa823-design/BDF-Lab-3
 
