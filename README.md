@@ -161,6 +161,7 @@ The GET `/books/` endpoint supports:
 - **Price Filtering:** Retrieves books within a specified minimum and maximum price range.
 
 **Example Requests:**
+
 https://bdf-lab-3-er43.onrender.com/books/?search_q=the
 
 https://bdf-lab-3-er43.onrender.com/books/?order_by=price&order=DESC
