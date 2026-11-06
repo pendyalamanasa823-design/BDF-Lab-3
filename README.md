@@ -120,7 +120,7 @@ Retrieves the list of books from the database.
 
 **Example:**
 
-https://bdf-lab-3-er43.onrender.com/books/?search_q=story&order_by=price&order=ASC&limit=10&offset=0
+https://bdf-lab-3-er43.onrender.com/books/?search_q=potter&order_by=price&order=ASC&limit=10&offset=0
 
 Updates the details of an existing book using its ID.
 
