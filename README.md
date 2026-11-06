@@ -6,8 +6,7 @@
 - **Name:** Pendyala Manasa
 - **Registration Number:** 252U1R1191
 - **Section:** CSE-2D
-- **Course:** Backend Development Fundamentals
-- **Lab:** 3
+- **Course:** Backend Development Fundamentals-3
 
 ---
 
@@ -121,9 +120,8 @@ Retrieves the list of books from the database.
 
 **Example:**
 
-```http
-GET /books/?search_q=story&order_by=price&order=ASC&limit=10&offset=0
-```
+https://bdf-lab-3-er43.onrender.com/books/?search_q=story&order_by=price&order=ASC&limit=10&offset=0
+
 Updates the details of an existing book using its ID.
 
 **Example JSON Request:**
@@ -153,27 +151,7 @@ Successful deletion returns status code `200 OK`.
 
 If the book does not exist, the API returns `404 Not Found`.
 
-## 7. Error Handling
-
-The API uses appropriate HTTP status codes and consistent JSON error messages.
-
-| Status Code | Description |
-|---|---|
-| 200 | Request successful |
-| 201 | Resource created successfully |
-| 400 | Invalid request or missing required fields |
-| 404 | Requested book not found |
-| 500 | Internal server error |
-
-**Example Error Response:**
-
-```json
-{
-  "message": "Book not found"
-}
-```
-
-## 8. Query Parameters and Filtering
+## 7. Query Parameters and Filtering
 
 The GET `/books/` endpoint supports:
 
@@ -191,7 +169,7 @@ https://bdf-lab-3-er43.onrender.com/books/?limit=10&offset=0
 
 https://bdf-lab-3-er43.onrender.com/books/?min_price=100&max_price=500
 
-## 9. Testing
+## 8. Testing
 
 The API endpoints were tested using Postman and a web browser.
 
@@ -206,7 +184,7 @@ The testing process includes:
 - Testing invalid input and missing fields.
 - Testing requests for nonexistent book IDs.
 
-## 10. Debugging and Issues Faced
+## 9. Debugging and Issues Faced
 
 During development, the following issues were encountered and addressed:
 
@@ -220,7 +198,7 @@ During development, the following issues were encountered and addressed:
 
 5. **Deployment Compatibility:** Encountered a native SQLite dependency compatibility issue during Render deployment. The deployment configuration was adjusted to build the SQLite dependency in the deployment environment.
 
-## 11. Deployment
+## 10. Deployment
 
 The application is deployed using Render.
 
@@ -236,7 +214,7 @@ Welcome to Books API
 
 The deployed API can be accessed using the `/books/` endpoint.
 
-## 12. Learning Outcomes
+## 11. Learning Outcomes
 
 Through this lab, I learned:
 
