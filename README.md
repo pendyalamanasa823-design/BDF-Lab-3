@@ -200,9 +200,6 @@ All live endpoints and repository links were navigated in a web browser, tested,
 ### 1. GitHub Repository
 - **URL:** [https://github.com/pendyalamanasa823-design/BDF-Lab-3](https://github.com/pendyalamanasa823-design/BDF-Lab-3)
 - **Description:** The official GitHub repository hosting the complete source code of the project. It shows all project files (`app.js`, `package.json`, `setup-db.js`, `seed-storybooks.js`, `check-db.js`, database schema files, and documentation), commit history, and the branch structure.
-
-![GitHub Repository](screenshots/01_github_repository.png)
-
 ---
 
 ### 2. Live Application Root Endpoint (Welcome Message)
